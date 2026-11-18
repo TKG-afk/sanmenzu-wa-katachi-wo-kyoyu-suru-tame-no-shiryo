@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>三面図は、形を共有するための資料｜AIで3DCG作品を改善</title><link rel="stylesheet" href="styles.css"></head>
+<body><main id="viewport"><div id="stage"><header><a href="#1" class="brand">3DCG <span>×</span> AI LAB</a><span id="chapter"></span><button id="tocBtn">目次</button><button id="notesBtn">講師ノート</button><button id="fullBtn" title="全画面表示 (F)">全画面 ↗</button></header><div id="slides"></div><footer><span id="lesson">作品を見せる → 判断する → 自分で直す</span><div class="nav"><button id="prev" aria-label="前のスライド">←</button><span id="counter"></span><button id="next" aria-label="次のスライド">→</button></div></footer><div id="progress"></div></div></main>
+<dialog id="toc"><div class="dialoghead"><h2>授業の目次</h2><button data-close>閉じる ×</button></div><div id="tocList"></div></dialog>
+<dialog id="notes"><div class="dialoghead"><h2>講師ノート</h2><button data-close>閉じる ×</button></div><div id="noteContent"></div></dialog>
+<dialog id="zoom"><div class="dialoghead"><span id="zoomLabel"></span><button data-close>閉じる ×</button></div><img id="zoomImage" alt=""><a id="zoomSource" target="_blank" rel="noopener">出典を開く ↗</a></dialog>
+<dialog id="resources"><div class="dialoghead"><h2>参考資料・確認状況</h2><button data-close>閉じる ×</button></div><div id="resourceList"></div></dialog>
+<dialog id="video"><div class="dialoghead"><h2>参考動画</h2><button data-close>閉じる ×</button></div><div id="videoFrame"></div><p>再生できない場合は <a id="videoLink" target="_blank" rel="noopener">YouTubeで開く ↗</a></p><p class="muted">動画内容・埋め込み可否は未検証。授業前に教員が確認してください。</p></dialog>
+<div id="toast" role="status" aria-live="polite"></div><script src="sources.js"></script><script src="slides.js"></script><script src="app.js"></script></body></html>

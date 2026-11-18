@@ -1,0 +1,101 @@
+[
+  {
+    "id": "maya",
+    "file": "assets/images/maya.webp",
+    "title": "同じモデルを3方向に配置したMayaの画面",
+    "original_url": "https://yoshikawastudio.com/wp-content/uploads/2024/04/6299a05aea2843b54cdba227db03894f-1024x502.webp",
+    "article_url": "https://yoshikawastudio.com/generate-three-views/",
+    "credit": "AICG Seminar／吉川スタジオ",
+    "retrieved": "2026-11-17",
+    "slides": [
+      5
+    ],
+    "basis": "工程比較・批評の必要範囲の引用。包括的転載許諾・CCライセンスなし。",
+    "purpose": "同一モデルを各方向に配置した実画面を、後続の元画像と比較する。"
+  },
+  {
+    "id": "template",
+    "file": "assets/images/template.png",
+    "title": "img2img用にレンダリングした元画像",
+    "original_url": "https://yoshikawastudio.com/wp-content/uploads/2024/04/three_side_View_12116_832_img2img-1024x701.png",
+    "article_url": "https://yoshikawastudio.com/generate-three-views/",
+    "credit": "AICG Seminar／吉川スタジオ",
+    "retrieved": "2026-11-17",
+    "slides": [
+      5
+    ],
+    "basis": "工程比較・批評の必要範囲の引用。包括的転載許諾・CCライセンスなし。",
+    "purpose": "3Dモデルから出した入力画像を、骨格画像と比較し制御の役割を説明する。"
+  },
+  {
+    "id": "pose",
+    "file": "assets/images/pose.png",
+    "title": "同じ位置にそろえたOpenPose用画像",
+    "original_url": "https://yoshikawastudio.com/wp-content/uploads/2024/04/three_side_View_12116_832_OP_Black-1024x701.png",
+    "article_url": "https://yoshikawastudio.com/generate-three-views/",
+    "credit": "AICG Seminar／吉川スタジオ",
+    "retrieved": "2026-11-17",
+    "slides": [
+      5
+    ],
+    "basis": "工程比較・批評の必要範囲の引用。包括的転載許諾・CCライセンスなし。",
+    "purpose": "元画像と同じ位置の骨格を比較し、ポーズ制御と見た目の違いを説明する。"
+  },
+  {
+    "id": "controlnet",
+    "file": "assets/images/controlnet.png",
+    "title": "ControlNet設定（原記事の注記を含む）",
+    "original_url": "https://yoshikawastudio.com/wp-content/uploads/2024/04/image-55.png",
+    "article_url": "https://yoshikawastudio.com/generate-three-views/",
+    "credit": "AICG Seminar／吉川スタジオ",
+    "retrieved": "2026-11-17",
+    "slides": [
+      6
+    ],
+    "basis": "工程比較・批評の必要範囲の引用。包括的転載許諾・CCライセンスなし。",
+    "purpose": "原記事の実設定を示し、既存骨格画像の利用と生成結果の関係を批評する。"
+  },
+  {
+    "id": "result",
+    "file": "assets/images/result.webp",
+    "title": "Stable Diffusionで生成した三面図",
+    "original_url": "https://yoshikawastudio.com/wp-content/uploads/2024/04/00109-1488467260-1024x701.webp",
+    "article_url": "https://yoshikawastudio.com/generate-three-views/",
+    "credit": "AICG Seminar／吉川スタジオ",
+    "retrieved": "2026-11-17",
+    "slides": [
+      1,
+      6
+    ],
+    "basis": "工程比較・批評の必要範囲の引用。包括的転載許諾・CCライセンスなし。",
+    "purpose": "11では方向別情報と衣装構造、16では骨格制御が衣装整合性を保証しない点を検討する。"
+  },
+  {
+    "id": "angle",
+    "file": "assets/images/angle-test.webp",
+    "title": "正面・斜め45度・側面の生成検証画面",
+    "original_url": "https://yoshikawastudio.com/wp-content/uploads/2024/04/image-55-1-1024x727.webp",
+    "article_url": "https://yoshikawastudio.com/generate-three-views/",
+    "credit": "AICG Seminar／吉川スタジオ",
+    "retrieved": "2026-11-17",
+    "slides": [
+      7
+    ],
+    "basis": "工程比較・批評の必要範囲の引用。包括的転載許諾・CCライセンスなし。",
+    "purpose": "45度と衣装変更の両立が難しいとする原記事の報告を入力と出力で比較する。"
+  },
+  {
+    "id": "copainter",
+    "file": "assets/images/copainter.png",
+    "title": "copainterの入力イラストと出力三面図",
+    "original_url": "https://storage.ghost.io/c/42/fc/42fcd807-7c75-44a7-8b26-8deade0bf4c9/content/images/2025/09/AI------------------_copainter_1.png",
+    "article_url": "https://blog.copainter.ai/threeviews/",
+    "credit": "copainter team",
+    "retrieved": "2026-11-17",
+    "slides": [
+      3
+    ],
+    "basis": "工程比較・批評の必要範囲の引用。包括的転載許諾・CCライセンスなし。",
+    "purpose": "入力と出力で王冠・杖等の扱いが変化する点を具体的に批評し、背面の推定を説明する。"
+  }
+]
