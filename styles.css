@@ -23,3 +23,6 @@
 }
 @media(max-width:700px) and (orientation:portrait){.comparecol{display:flex;flex-direction:column}.comparecol>figure{height:320px}.content>.two{height:auto}.slide[data-original-index="15"] .split>div{min-height:350px!important}}
 @media(min-width:701px),(orientation:landscape){.slide[data-original-index="23"] .resourcegroup{padding:22px 28px}.slide[data-original-index="23"] .resourcegroup p{margin:8px 0 16px}.slide[data-original-index="23"] .sourcebar{font-size:18px;margin-top:9px}.slide p{font-weight:500}}
+/* Small desktop viewports keep the scaled 16:9 stage centered. */
+@media(min-width:701px),(orientation:landscape){#stage{position:fixed;left:50%;top:50%;margin-left:-960px;margin-top:-540px}}
+@media print{#stage{position:relative;left:auto;top:auto;margin:0}}
